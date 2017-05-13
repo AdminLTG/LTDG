@@ -1,0 +1,60 @@
+/*		Mobile Layout:320px and 480px and more but less than or equal to 767px.
+----------------------------------------------------------------------------------
+*/
+@media only screen and (max-width:1370px) {
+	h1 { font-size: 60px;}
+	h2 { font-size: 36px;}
+	h3 { font-size: 48px;}
+	h4 { font-size: 24px;}
+	h5 {}
+
+}
+
+@media only screen and (max-width:767px) {
+	h1 { font-size: 48px;}
+	h2 { font-size: 24px;}
+	h3 { font-size: 30px;}
+	h4 { font-size: 18px;}
+	h5 {}
+	.top-bar { min-height: 80px;}
+	.social-links {float: none; width: 100%; text-align: center;}
+	.banner-content { padding: 30px 15px;}
+	.logo { width: 100%; max-width: 260px;}
+	.banner-container { min-height: 300px;}
+	.banner-content p { font-size: 24px;}
+	.welcome-container { padding: 30px 15px;}
+	.welcome-content .thumb { padding-right: 0;}
+	.welcome-content p { font-size: 18px;}
+	.sectionTitle { padding-top: 20px;}
+	.relief-container {padding: 30px 15px;}
+	.activities-container { padding: 20px 15px 30px;}
+	.relief-left,
+	.relief-right { padding: 0 15px;}
+	.activities-left,
+	.activities-right { padding: 0;}
+	.relief-content { width: 100%;}
+	.relief-container p { font-size: 18px;}
+	.activities-container .sectionTitle { margin-bottom: 30px;}
+	.activities-content { padding-top: 30px;}
+	.activities-left { padding-bottom: 30px; background: none; border-bottom: 1px solid #b6b6b6; margin-bottom: 30px;}
+	.activities-right { padding-bottom: 20px;}
+	.footer-content { padding: 40px 15px;}
+	.footer-contact { padding-top: 30px; padding-bottom: 30px;}
+
+}
+
+/*		Tablet/iPad Layout
+-----------------------------------------------------------------
+*/
+@media only screen and (min-width:768px) and (max-width:1170px) {
+	.social-links { padding-right: 30px;}
+	.activities-left { padding-right: 30px; padding-left: 30px; background: none; padding-bottom: 60px; margin-bottom: 60px; border-bottom: 1px solid #b6b6b6;}
+	.activities-right { padding-right: 30px; padding-left: 30px; }
+	.relief-right { padding-right: 30px;}
+	.welcome-content,
+	.footer-content { width: 100%; padding-left: 30px; padding-right: 30px;}
+}
+
+@media only screen and (min-width:768px) and (max-width:800px) {
+
+}
