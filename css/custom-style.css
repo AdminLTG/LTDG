@@ -201,7 +201,7 @@ label { font-weight: normal; }
 .top-bar { max-width: 1170px; min-height: 120px; margin: 0 auto; position: relative; z-index: 4;}
 .social-links { float: right; padding: 20px 0;}
 .social-links img { margin-left: 5px;}
-.banner-content {max-width: 1170px; padding: 50px 80px; border:1px solid #fff; position: relative; z-index: 5; margin: 0 auto; text-align: center;}
+.banner-content {max-width: 1170px; padding: 50px 80px; position: relative; z-index: 5; margin: 0 auto; text-align: center;}
 .logo { width: 320px; max-width: 320px; margin: 0 auto; }
 /*.banner-content h1 { font-size: 60px; color: #77ad40; font-weight: 700; text-transform: uppercase; margin: 20px 0 0;}*/
 .banner-content p { font-size: 30px; margin: 20px 0 0;}
